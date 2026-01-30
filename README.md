@@ -60,7 +60,7 @@ where `φ` is the [golden ratio][golden-ratio] and `F > 1`.
 ## Usage
 
 ```javascript
-import fibonacciIndexf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonacci-indexf@esm/index.mjs';
+import fibonacciIndexf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonacci-indexf@v0.1.0-esm/index.mjs';
 ```
 
 #### fibonacciIndexf( F )
@@ -117,7 +117,7 @@ var n = fibonacciIndexf( NaN );
 <body>
 <script type="module">
 
-import fibonacciIndexf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonacci-indexf@esm/index.mjs';
+import fibonacciIndexf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonacci-indexf@v0.1.0-esm/index.mjs';
 
 var F1;
 var F2;
