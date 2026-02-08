@@ -62,7 +62,7 @@ where `φ` is the [golden ratio][golden-ratio] and `F > 1`.
 To use in Observable,
 
 ```javascript
-fibonacciIndexf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonacci-indexf@umd/browser.js' )
+fibonacciIndexf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonacci-indexf@v0.1.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -74,7 +74,7 @@ var fibonacciIndexf = require( 'path/to/vendor/umd/math-base-special-fibonacci-i
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonacci-indexf@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonacci-indexf@v0.1.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -139,7 +139,7 @@ var n = fibonacciIndexf( NaN );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonacci-indexf@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonacci-indexf@v0.1.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
