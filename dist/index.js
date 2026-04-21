@@ -1,5 +1,39 @@
-"use strict";var t=function(r,e){return function(){return e||r((e={exports:{}}).exports,e),e.exports}};var n=t(function(P,u){
-var v=require('@stdlib/math-base-assert-is-nanf/dist'),f=require('@stdlib/math-base-assert-is-integerf/dist'),i=require('@stdlib/math-base-special-lnf/dist'),s=require('@stdlib/math-base-special-roundf/dist'),a=require('@stdlib/number-float64-base-to-float32/dist'),o=require('@stdlib/constants-float32-phi/dist'),q=require('@stdlib/constants-float32-pinf/dist'),c=a(.5),I=a(2.23606797749979),N=i(o);function l(r){var e;return v(r)||f(r)===!1||r<=1||r===q?NaN:(e=a(a(r*I)+c),s(a(i(e)/N)))}u.exports=l
-});var x=n();module.exports=x;
 /** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
+
+'use strict';
+
+/**
+* Compute the Fibonacci number index of a single-precision floating-point number.
+*
+* @module @stdlib/math-base-special-fibonacci-indexf
+*
+* @example
+* var fibonacciIndexf = require( '@stdlib/math-base-special-fibonacci-indexf' );
+*
+* var n = fibonacciIndexf( 0 );
+* // returns NaN
+*
+* n = fibonacciIndexf( 1 );
+* // returns NaN
+*
+* n = fibonacciIndexf( 2 );
+* // returns 3
+*
+* n = fibonacciIndexf( 3 );
+* // returns 4
+*
+* n = fibonacciIndexf( 5 );
+* // returns 5
+*
+* n = fibonacciIndexf( 8 );
+* // returns 6
+*/
+
+// MODULES //
+
+var main = require( './main.js' );
+
+
+// EXPORTS //
+
+module.exports = main;
